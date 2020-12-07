@@ -37,9 +37,14 @@ function checkCashRegister(price, cash, cid) {
   else {
 //HUNDREDS   
     if(change>=100&&hundreds!==0){
+      if(hundreds<Math.floor(change/100)*100){
+        drawer.change.push(["ONE HUNDRED", hundreds])
+        change-=hundreds
+        drawer.status="OPEN"
+      } else{
      drawer.change.push(["ONE HUNDRED", Math.floor(change/100)*100])
      change-=(Math.floor(change/100)*100)
-     drawer.status = "OPEN"     
+     drawer.status = "OPEN"}    
     } 
 //TWENTYS    
     if (change>=20&&twentys!==0){
