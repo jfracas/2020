@@ -1,5 +1,5 @@
 # Projects from 2020
-This repository holds the projects receieved from FreeCodeCamp while completing the Javascript & Data Structures Certification.
+This repository holds projects I have completed from when I started learning Javascript in August 2020.
 
-## Subheader
-Following a tutorial on YouTube.
+## Looking for full-time opportunities
+Contact me at fracasj@gmail.com
