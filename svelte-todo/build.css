@@ -1,0 +1,78 @@
+h2{
+  color: rgb(230, 77, 6);
+}
+
+body{
+  font-family: "Verdana", sans-serif;
+}
+
+.container.svelte-1psfqut {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.todo-input.svelte-1psfqut {
+  width: 100%;
+  padding: 10px, 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.inner-container.svelte-1psfqut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  border-top: 1px solid lightgrey;
+  padding-top: 15px;
+  margin-bottom: 13px;
+}
+.inner-container-input.svelte-1psfqut {
+  margin-right: 12px;
+}
+button.svelte-1psfqut {
+  font-size: 14px;
+  background-color: white;
+  appearance: none;
+  font-family: "verdana", sans-serif;
+  border: none;
+  padding: 4px 4px;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 4px;
+}
+button.svelte-1psfqut:hover {
+  background: rgb(230, 77, 6);
+  
+}
+button.svelte-1psfqut:focus {
+  outline: none;
+  
+}
+.active.svelte-1psfqut {
+  background: rgb(230, 77, 6);
+}
+.todo-item.svelte-xqohy2 {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation-duration: 0.3s;
+}
+.remove-item.svelte-xqohy2 {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.remove-item.svelte-xqohy2:hover {
+  color: rgb(230, 77, 6);
+}
+.todo-item-left.svelte-xqohy2 {
+  display: flex;
+  align-items: center;
+}
+.todo-item-label.svelte-xqohy2 {
+  border: 1px solid white;
+  margin-left: 12px;
+}
+.completed.svelte-xqohy2 {
+  text-decoration: line-through;
+  color: grey;
+}
