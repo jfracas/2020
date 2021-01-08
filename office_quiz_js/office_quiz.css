@@ -1,0 +1,59 @@
+body{
+    background-color: lightskyblue;
+}
+
+.question {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Glegoo', serif;
+    color: white;
+    text-shadow: 2px 2px slategrey;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-shadow: 2px 2px slategrey;
+}
+
+em{
+  margin-top: -20px;
+  font-size: 13px;
+}
+
+.answers{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+button{
+    color: grey;
+    background-color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#results{
+    margin-top: 10px;
+    font-family: 'Glegoo', serif;
+    color: white;
+    text-shadow: 2px 2px slategrey;
+}
+
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#paper-img{
+    margin-left: 30px;
+}
